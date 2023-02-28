@@ -86,3 +86,8 @@ footer{
     height:200px;
     object-fit:contain;
 }
+
+#kissa{
+    color:hsl(210, 40%, 50%);
+    position: fixed;
+}
