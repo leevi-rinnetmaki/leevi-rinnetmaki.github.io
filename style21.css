@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    overflow: auto;
 }
 
 html{
@@ -80,6 +81,7 @@ footer{
     overflow: hidden;
     display: flex;
     justify-content: center;
+    clear: both;
 }
 
 #lk{
@@ -90,4 +92,11 @@ footer{
 #kissa{
     color:hsl(210, 40%, 50%);
     position: fixed;
+}
+
+#map{
+    width:50%;
+    height:600px;
+    margin:0px;
+    float: right;
 }
