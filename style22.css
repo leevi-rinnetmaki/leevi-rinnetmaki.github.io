@@ -1,0 +1,102 @@
+*{
+    word-break: break-word;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    overflow: auto;
+}
+
+html{
+    filter: grayscale(0);
+    background: hsl(210,40%,50%);
+}
+
+h1{
+    font-size: 8rem;
+    text-align: center;
+    line-height: 80%;
+    margin: 4rem 0px;
+    padding: 2rem;
+    color:hsl(0,0%,90%);
+    text-shadow: 0.5rem 0.5rem 0px hsl(210,40%,25%);
+    border: solid;
+    border-width:20px;
+    border-left-width:0px;
+    border-right-width:0px;
+}
+
+h2{
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.yleinen{
+    margin: 40px auto;
+    width: 1500px;
+    max-width: 90%;
+    background:hsl(210, 40%, 80%);
+    box-shadow: 0px 0px 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.yleinenSisalto{
+    padding: 3rem;
+}
+
+.tuote {
+    border-bottom: 1px dashed #000;
+}
+.tuoteNimi {
+    font-weight: bold;
+}
+.tuoteHinta {
+    float: right;
+}
+
+
+.fb {
+    color:#3B5998;
+}
+
+.ig{
+    color: #125688;
+}
+
+.fa-facebook {
+    color: white;
+  }
+
+.fa-instagram {
+    color:white;
+}
+
+footer{
+    font-size: 2rem;
+    background-color:rgb(0,0,0);
+    height:200px;
+    color:white;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
+
+#lk{
+    height:200px;
+    object-fit:contain;
+}
+
+#kissa{
+    color:hsl(210, 40%, 50%);
+    position: fixed;
+}
+
+#map{
+    width:50%;
+    height:600px;
+    margin:0px;
+    float: right;
+}
